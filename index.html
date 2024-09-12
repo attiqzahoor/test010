@@ -57,7 +57,7 @@
         const name = document.getElementById('name').value;
 
         try {
-            const response = await fetch('http://localhost:3000/add-person', {
+            const response = await fetch('https://db-flax.vercel.app/add-person', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
